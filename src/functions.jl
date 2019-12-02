@@ -1,3 +1,8 @@
+#using LinearAlegebra
+using LinearAlgebra
+using Random
+dot(rand(10),rand(10))
+
 function fast_non_dominated_sort!(pop::Vector{T}) where {T}
     F = T[]
     for p in pop
@@ -37,7 +42,7 @@ end
 
 
 function niching_based_selection(p1, p2, H)
-    
+
     if p1.CV != p2.CV
         return p1.CV < p2.CV ? p1 : p2
     end
