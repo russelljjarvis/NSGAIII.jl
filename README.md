@@ -1,4 +1,4 @@
-# NSGAII
+# NSGAIII
 
 [![Build Status](https://travis-ci.org/gsoleilhac/NSGAII.jl.svg?branch=master)](https://travis-ci.org/gsoleilhac/NSGAIII.jl)
 
